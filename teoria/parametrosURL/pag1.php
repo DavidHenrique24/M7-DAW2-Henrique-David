@@ -7,5 +7,6 @@
 <body>
     <h1>Pagina para enviar datos</h1>
     <a href="pag2.php?nom=Albert&edat=25"><button>Clica aqui para mandar informacion</button></a>
+    
 </body>
 </html>
