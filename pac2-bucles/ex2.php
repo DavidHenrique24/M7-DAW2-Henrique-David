@@ -119,12 +119,13 @@ echo"</div>";
     <title>Ejercicio 2</title>
     <style>
         .cuadro{
-        width: 100px;
-        padding:40px;
+        width: 120px;
+        padding:110px;  
         background-color:#303030;
+        font-size: 20px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color:#F0F0F0;
-        margin: 5px;
+        margin: 18px;
         text-align: center;
         
         }
