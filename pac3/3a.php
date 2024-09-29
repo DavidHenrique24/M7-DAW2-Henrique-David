@@ -26,7 +26,7 @@ $idolos = [
     <header>
         <nav class="navbar navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Menu de idolos</a>
+                <a class="navbar-brand" href="#">Album</a>
             </div>
         </nav>
     </header>
@@ -34,7 +34,7 @@ $idolos = [
     <main>
         <section class="py-5 text-center">
             <div class="container">
-                <h1 class="font-weight-light">Ídolos</h1>
+                <h1 class="font-weight-light">Album de idolos</h1>
             </div>
         </section>
 
