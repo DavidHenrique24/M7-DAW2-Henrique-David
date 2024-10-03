@@ -11,7 +11,8 @@
         $nom= $_GET ['nom'];
         $edat= $_GET ['edat'];
         echo"<p>Nom: $nom</p>";
-        echo"<p>Edat: $edat</p>";
+        echo"<p>Edat: $edat</p>"; 
+        
         
     }
     
