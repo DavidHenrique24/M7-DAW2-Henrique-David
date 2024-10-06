@@ -46,7 +46,7 @@ if (isset($_GET['nombre'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tráiler de <?= ($peliculaSeleccionada['nombre']) ?></title>
+    <title>Tráiler </title>
     <style>
         body {
     font-family: Arial, sans-serif;
@@ -88,16 +88,16 @@ if (isset($_GET['nombre'])) {
 <body>
     <div class="container">
         <?php if ($peliculaSeleccionada): ?>
-            <h1 class="titulo">Tráiler de <?= htmlspecialchars($peliculaSeleccionada['nombre']) ?></h1>
+            <h1 class="titulo">Tráiler de <?= ($peliculaSeleccionada['nombre']) ?></h1>
             <div class="video-container">
                 <!-- Extrae el ID del video de la URL -->
                 <?php
                 // Obtener el ID del video de YouTube de la URL
                 $urlVideo = $peliculaSeleccionada['urlyoutube'];
                 parse_str(parse_url($urlVideo, PHP_URL_QUERY), $query);
-                $idVideo = $query['v'];  
+                $idVideo = $query['v'];  //Segun necesario por el video de youtube
                 ?>
-                <iframe width="800" height="400" src="https://www.youtube.com/embed/<?= htmlspecialchars($idVideo) ?>?autoplay=1&mute=1" allow="autoplay" allowfullscreen></iframe>
+                <iframe width="800" height="400" src="https://www.youtube.com/embed/<?= ($idVideo) ?>?autoplay=1&mute=1" allow="autoplay" allowfullscreen></iframe> 
             </div>
         <?php endif; ?>
 
