@@ -67,10 +67,7 @@ $estudiantes= [
 ];
 
 foreach($estudiantes as $estudiante){
-    echo"El estudiante: {$estudiante["nombre"]} ha sacado un {$estudiante["nota"]}<br>";
-    
-    
-
+    echo"El estudiante: {$estudiante["nombre"]} ha sacado un {$estudiante["nota"]} <br>";
 }
 
 

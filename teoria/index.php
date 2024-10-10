@@ -13,7 +13,5 @@ echo "Mi primer hola mundo";
     <?php echo "subtitulo";?>
     <h3>Tercer titulo</h3>
     <?php echo "<p>Este es un parrafo</p>";?>
-
-    
 </body>
 </html>
