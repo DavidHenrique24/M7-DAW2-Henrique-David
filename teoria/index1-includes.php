@@ -6,18 +6,17 @@
 </head>
 <body>
     <?php 
-    include_once ('./components')
+    include_once ('./components/header.php')
     ?>
-    <header>
-        <h1>Peliculas de mi ciudad</h1>
-    </header>
+   
     <main>
         <ul>
         <li><a href="index2-includes.php"> Ir a pelis 2</a></li>
         </ul>
     </main>
-    <footer>
-     copyrigtht 2024 fpllefia 
-    </footer>
+    <?php 
+    include_once ('./components/footer.php')
+    ?>
+   
 </body>
 </html>

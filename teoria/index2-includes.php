@@ -5,16 +5,17 @@
     <title>Pelicula 2</title>
 </head>
 <body>
-    <header>
-        <h1>Peliculas de mi ciudad</h1>
-    </header>
+<?php 
+    include_once ('./components/header.php')
+    ?>
     <main>
         <ul>
             <li><a href="index1-includes.php"> Ir a pelis 1</a></li>
         </ul>
     </main>
-    <footer>
-     copyrigtht 2024 fpllefia 
-    </footer>
+    <?php 
+    include_once ('./components/footer.php')
+    ?>
+   
 </body>
 </html>
