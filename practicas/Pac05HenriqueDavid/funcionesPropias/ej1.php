@@ -1,9 +1,10 @@
 <?php 
 
 function generarSaludo($nombre){
+    $saludo = "Hola, {$nombre}";
+    return  $saludo;
 
 }
-
 
 ?>
 
@@ -15,5 +16,6 @@ function generarSaludo($nombre){
 </head>
 <body>
     <h1>Funciones con parametros</h1>
+    <?php echo generarSaludo("Juan");?>
 </body>
 </html>
