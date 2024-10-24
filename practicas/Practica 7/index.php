@@ -9,7 +9,6 @@
             background-image: url(https://images6.alphacoders.com/130/1305167.jpg);
             font-family: Arial, sans-serif;
             background-size: cover;
-
         }
         .container {
             max-width: 600px;
@@ -44,7 +43,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Bienvenidos a Hogwarts</h1>
+        <h1> Benvinguta a Hogwarts</h1>
         <form action="bienvenida.php" method="POST">
             <label for="nombre">Nombre:</label>
             <input type="text" name="nombre" id="nombre">
