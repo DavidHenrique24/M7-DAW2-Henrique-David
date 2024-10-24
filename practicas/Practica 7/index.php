@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+n                                                                                                                                                                 n<!DOCTYPE html>
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
@@ -22,8 +22,7 @@
             color: #333;
             margin-bottom: 20px;
         }
-      
-        input[type="text"] {
+             input[type="text"] {
             width: 93%;
             padding: 10px;
             margin: 10px;
